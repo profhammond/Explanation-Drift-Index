@@ -1,0 +1,21 @@
+column,type,description
+comparison_id,string,Anonymous unique identifier for one paired attribution comparison
+anonymous_image_id,string,Stable anonymized image identifier used to preserve clustered repeated-measure structure
+evaluation_configuration,string,Dataset or pooled dataset configuration used for evaluation
+preprocessing_condition,string,Preprocessing-specific model condition compared with its matched baseline
+attribution_method,string,Post-hoc attribution algorithm
+resolution,integer,Square model-input resolution in pixels
+model_architecture,string,Classifier architecture
+pearson_correlation,float,Pearson correlation across all flattened normalized attribution-map pixels
+ssim,float,Structural similarity between the paired normalized attribution maps
+correlation_drift,float,One minus symmetrically normalized Pearson similarity; (1-r)/2
+structural_drift,float,Primary structural drift; 1-SSIM
+edi_primary,float,Equal-weight mean of correlation drift and structural drift
+cosine_similarity,float,Complementary cosine similarity where available
+spearman_correlation,float,Complementary rank correlation where available
+mean_squared_error,float,Complementary pixelwise mean squared error where available
+mean_absolute_error,float,Complementary pixelwise mean absolute error where available
+root_mean_squared_error,float,Complementary pixelwise root mean squared error where available
+normalized_mean_squared_error,float,Complementary pooled normalized mean squared error where available
+lpips_distance,float,Complementary perceptual distance where available
+

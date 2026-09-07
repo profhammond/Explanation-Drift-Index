@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software or derived manifest, please cite the associated ICTAI 2026 paper."
+title: "Explanation Drift Index Validation Materials"
+version: 1.0.0
+date-released: 2026-09-07
+authors:
+  - family-names: Hammond
+    given-names: Scott G.
+  - family-names: Ilyas
+    given-names: Mohammad
+preferred-citation:
+  type: conference-paper
+  title: "Evaluating a Composite Explanation Drift Index Across Attribution Methods and Medical-Imaging Configurations"
+  authors:
+    - family-names: Hammond
+      given-names: Scott G.
+    - family-names: Ilyas
+      given-names: Mohammad
+  year: 2026
+  conference: "38th IEEE International Conference on Tools with Artificial Intelligence"
+

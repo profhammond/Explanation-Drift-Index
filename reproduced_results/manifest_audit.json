@@ -1,0 +1,11 @@
+{
+  "rows": 46080,
+  "expected_rows": 46080,
+  "duplicate_keys": 0,
+  "duplicate_comparison_ids": 0,
+  "nonfinite_numeric_values": 0,
+  "factorial_cells": 1152,
+  "cells_with_unexpected_image_count": 0,
+  "maximum_edi_formula_error": 5.329070518200751e-15,
+  "passed": true
+}
