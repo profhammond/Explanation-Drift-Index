@@ -50,6 +50,8 @@ pytest -q
 python analysis/reproduce_results.py
 python analysis/formulation_sensitivity.py
 python analysis/bootstrap_analysis.py --iterations 2000
+python analysis/complementary_metric_analysis.py
+python analysis/verify_supplementary_results.py
 ```
 
 Generated tables are written to `reproduced_results/`.
@@ -66,6 +68,19 @@ two drift components and primary EDI.
 
 Synthetic paired arrays in `examples/` demonstrate this interface without
 redistributing medical images or derived patient imagery.
+
+## Complementary and controlled analyses
+
+`analysis/complementary_metric_analysis.py` reproduces preprocessing-rank
+comparisons between EDI and complementary measures for the 17,280-row internal
+cohort. Each comparison uses its pairwise-complete rows and reports the actual
+denominator because cosine and Spearman values are unavailable for some
+remediated Grad-CAM and Grad-CAM++ records.
+
+Aggregate outputs for the completed construct-validation,
+attribution-implementation, and matched drift-source experiments are under
+`data/supplementary/`. Their scope and interpretation limits are documented in
+`data/supplementary/README.md` and `RELEASE_NOTES_CAMERA_READY.md`.
 
 ## Recreating the anonymized manifest
 
