@@ -1,0 +1,10 @@
+metric,constituent_of_edi,preferred_direction,pairwise_complete_rows,preprocessing_levels,spearman_rank_agreement,maximum_absolute_rank_displacement
+cosine_similarity,False,higher,12211,6,0.942857142857143,1.0
+spearman_correlation,False,higher,12211,6,0.8857142857142858,1.0
+mean_squared_error,False,lower,17280,6,0.8857142857142858,1.0
+mean_absolute_error,False,lower,17280,6,0.8857142857142858,1.0
+root_mean_squared_error,False,lower,17280,6,0.8857142857142858,1.0
+normalized_mean_squared_error,False,lower,17280,6,0.8857142857142858,1.0
+lpips_distance,False,lower,17280,6,0.8857142857142858,1.0
+pearson_correlation,True,higher,17280,6,1.0,0.0
+ssim,True,higher,17280,6,1.0,0.0

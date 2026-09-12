@@ -1,0 +1,8 @@
+{
+  "construct_validation_passed": true,
+  "attribution_implementation_passed": true,
+  "attribution_bootstrap_maximum_reproduction_error": 8.326672684688674e-17,
+  "drift_source_decomposition_passed": true,
+  "all_supplementary_checks_passed": true,
+  "scope_note": "Aggregate paper-facing results; no medical images, model weights, or attribution arrays are redistributed."
+}
