@@ -1,0 +1,11 @@
+comparison_measure,spearman_correlation_with_edi
+structural_drift,0.994
+cosine_distance,0.975
+correlation_drift,0.973
+root_mean_squared_error,0.816
+mean_absolute_error,0.791
+top_20_percent_disagreement,0.661
+top_10_percent_disagreement,0.645
+spearman_drift,0.608
+top_5_percent_disagreement,0.605
+histogram_jensen_shannon_distance,0.228

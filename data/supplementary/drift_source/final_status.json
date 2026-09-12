@@ -1,0 +1,23 @@
+{
+  "bootstrap_reps": 5000,
+  "causal_fraction_claim_authorized": false,
+  "completed_utc": "2026-09-12T14:22:07.927582+00:00",
+  "conditions": [
+    "dullrazor",
+    "telea"
+  ],
+  "contrast_rows_expected": 24,
+  "contrast_rows_found": 24,
+  "duplicate_contrast_keys": 0,
+  "duplicate_source_keys": 0,
+  "methods": [
+    "gradcam",
+    "gradcampp"
+  ],
+  "nonfinite_outputs": 0,
+  "run_complete": true,
+  "shared_images": 40,
+  "source_estimate_rows_expected": 32,
+  "source_estimate_rows_found": 32,
+  "validation_passed": true
+}

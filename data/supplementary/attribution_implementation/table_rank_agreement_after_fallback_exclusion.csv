@@ -1,0 +1,17 @@
+factor,attribution_method,comparison_cohort,levels_compared,spearman_rho,maximum_absolute_rank_change
+preprocess,gradcam,conventional_only,6,0.942857142857143,1.0
+preprocess,gradcam,any_fallback,6,0.6,3.0
+preprocess,gradcam,baseline_conventional,6,1.0,0.0
+preprocess,gradcam,condition_conventional,6,1.0,0.0
+preprocess,gradcampp,conventional_only,6,0.942857142857143,1.0
+preprocess,gradcampp,any_fallback,6,1.0,0.0
+preprocess,gradcampp,baseline_conventional,6,0.7142857142857143,2.0
+preprocess,gradcampp,condition_conventional,6,0.942857142857143,1.0
+evaluation_domain,gradcam,conventional_only,4,1.0,0.0
+evaluation_domain,gradcam,any_fallback,4,0.19999999999999998,2.0
+evaluation_domain,gradcam,baseline_conventional,4,1.0,0.0
+evaluation_domain,gradcam,condition_conventional,4,1.0,0.0
+evaluation_domain,gradcampp,conventional_only,4,1.0,0.0
+evaluation_domain,gradcampp,any_fallback,4,-0.6000000000000001,2.0
+evaluation_domain,gradcampp,baseline_conventional,4,1.0,0.0
+evaluation_domain,gradcampp,condition_conventional,4,0.6000000000000001,1.0

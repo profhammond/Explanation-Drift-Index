@@ -1,0 +1,7 @@
+perturbation_family,source_maps,median_within_map_spearman,mean_within_map_spearman
+center_occlusion,600,1.0,1.0
+gamma_redistribution,600,1.0,1.0
+rotation,600,1.0,0.997
+gaussian_noise,600,1.0,0.981
+gaussian_blur,600,1.0,0.979
+translation,600,1.0,0.909

@@ -1,0 +1,16 @@
+{
+  "fixed_images": 40,
+  "fixed_only": 0,
+  "passed": true,
+  "repeat_images": 40,
+  "repeat_only": 0,
+  "shared_conditions": [
+    "dullrazor",
+    "telea"
+  ],
+  "shared_images": 40,
+  "shared_methods": [
+    "gradcam",
+    "gradcampp"
+  ]
+}

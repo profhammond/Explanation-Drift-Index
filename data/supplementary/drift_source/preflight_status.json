@@ -1,0 +1,14 @@
+{
+  "fixed_duplicate_keys": 0,
+  "fixed_formula_error": 2.220446049250313e-16,
+  "fixed_nonfinite": 0,
+  "fixed_rows": 240,
+  "fixed_run_complete": true,
+  "fixed_validation_passed": true,
+  "passed": true,
+  "repeat_duplicate_keys": 0,
+  "repeat_formula_error": 2.220446049250313e-16,
+  "repeat_nonfinite": 0,
+  "repeat_rows": 2160,
+  "repeat_run_complete": true
+}

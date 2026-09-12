@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-09-07T22:56:42.825684+00:00",
+  "domains": [
+    "combined",
+    "ham",
+    "isic",
+    "train_ham_test_isic"
+  ],
+  "duplicate_keys": 0,
+  "expected_rows": 7680,
+  "maximum_edi_formula_error": 2.220446049250313e-16,
+  "methods": [
+    "gradcam",
+    "gradcampp"
+  ],
+  "nonfinite_values": 0,
+  "passed": true,
+  "preprocessing_conditions": [
+    "diffusion",
+    "dl_preprocess",
+    "dullrazor",
+    "hdbmie",
+    "navier_stokes",
+    "telea"
+  ],
+  "resolutions": [
+    128,
+    160,
+    192,
+    224
+  ],
+  "rows": 7680,
+  "unique_images_by_domain": {
+    "combined": 40,
+    "ham": 40,
+    "isic": 40,
+    "train_ham_test_isic": 40
+  }
+}

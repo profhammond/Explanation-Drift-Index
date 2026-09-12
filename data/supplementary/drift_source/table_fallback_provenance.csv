@@ -1,0 +1,17 @@
+analysis_condition,attribution_method,source,rows,fallback_rows,fallback_percent
+dullrazor,gradcam,baseline_training,120,19,15.833333333333334
+dullrazor,gradcam,condition_training,120,12,10.0
+dullrazor,gradcam,input_only,40,13,32.5
+dullrazor,gradcam,total_pipeline,120,20,16.666666666666668
+dullrazor,gradcampp,baseline_training,120,13,10.833333333333334
+dullrazor,gradcampp,condition_training,120,10,8.333333333333334
+dullrazor,gradcampp,input_only,40,5,12.5
+dullrazor,gradcampp,total_pipeline,120,12,10.0
+telea,gradcam,baseline_training,120,19,15.833333333333334
+telea,gradcam,condition_training,120,12,10.0
+telea,gradcam,input_only,40,14,35.0
+telea,gradcam,total_pipeline,120,20,16.666666666666668
+telea,gradcampp,baseline_training,120,13,10.833333333333334
+telea,gradcampp,condition_training,120,17,14.166666666666666
+telea,gradcampp,input_only,40,9,22.5
+telea,gradcampp,total_pipeline,120,16,13.333333333333334

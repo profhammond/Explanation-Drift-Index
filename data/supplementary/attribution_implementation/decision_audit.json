@@ -1,0 +1,18 @@
+{
+  "bootstrap_ci_excludes_zero": true,
+  "conventional_only_bootstrap_difference_ci": [
+    0.14987264660326904,
+    0.20302658820515465
+  ],
+  "conventional_only_rows": 6599,
+  "created_utc": "2026-09-07T23:10:38.114927+00:00",
+  "fallback_row_percent": 14.075520833333332,
+  "fallback_rows": 1081,
+  "gradcam_conventional_mean_edi": 0.532695899330423,
+  "gradcampp_conventional_mean_edi": 0.7100208006426625,
+  "gradcampp_remains_higher_conventional_only": true,
+  "interpretation": "Sensitivity analysis of implementation provenance; not a causal comparison of fallback effects.",
+  "invalid_numerical_maps": null,
+  "manifest_integrity_passed": true,
+  "map_audit_completed": false
+}

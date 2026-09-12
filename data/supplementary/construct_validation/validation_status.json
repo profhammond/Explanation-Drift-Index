@@ -1,0 +1,14 @@
+{
+  "completed_source_maps": 600,
+  "expected_source_maps": 600,
+  "observations": 18600,
+  "expected_observations": 18600,
+  "errors": 0,
+  "duplicate_keys": 0,
+  "invalid_checkpoint_files": 0,
+  "maximum_edi_formula_error": 2.220446049250313e-16,
+  "identity_controls_effectively_zero": true,
+  "run_complete": true,
+  "validation_passed": true,
+  "release_scope": "Validated aggregate summary; source arrays and research checkpoints are not redistributed."
+}
