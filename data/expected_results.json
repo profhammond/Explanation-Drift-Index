@@ -29,5 +29,21 @@
     "seed": 2026,
     "ci_2_5": 0.3576711617734367,
     "ci_97_5": 0.36542677307401455
+  },
+  "complementary_metrics": {
+    "internal_rows": 17280,
+    "cosine_pairwise_complete_rows": 12211,
+    "cosine_rank_agreement": 0.942857142857143,
+    "nonconstituent_minimum_rank_agreement": 0.8857142857142858,
+    "maximum_rank_displacement": 1.0
+  },
+  "supplementary": {
+    "construct_source_maps": 600,
+    "construct_observations": 18600,
+    "attribution_implementation_rows": 7680,
+    "attribution_fallback_rows": 1081,
+    "attribution_bootstrap_replicates": 4000,
+    "drift_source_contrasts": 24,
+    "drift_source_estimates": 32
   }
 }
